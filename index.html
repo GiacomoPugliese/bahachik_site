@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="dark scroll-smooth" id="root">
+<html lang="en" class="light scroll-smooth" id="root">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -56,16 +56,15 @@
     
     <div class="relative flex items-center h-screen px-4 lg:px-0 bg-white dark:bg-dark custom-bg dark:custom-bg-dark" id="slider">
         <div class="sticky z-10 w-full lg:w-2/5 2xl:w-1/2 mx-auto text-center mt-20">
-            <h1 class="heading text-3xl lg:text-5xl !leading-normal"> Welcome to Bahachik!
-            </h1>
+            <img src="./img/logo-dark.png" alt="logo" class="hidden dark:block">
+            <img src="./img/logo-light.png" alt="logo" class="block dark:hidden">
             <div style="padding-top:4%">
-                <p class="text-neutral-900 dark:text-white text-xl font-medium leading-normal my-4" style="margin-top:5% !important">Where Quantum Science and AI Personalization come together for your unique skin care experience!</p>
+                <p class="text-neutral-900 dark:text-white text-xl font-medium leading-normal my-4" style="margin-top:5% !important">The patent-pending solid shampoo and conditioner bar that nourishes your hair and protects our planet!</p>
             </div>
             <div class="flex flex-col lg:flex-row items-center justify-center mt-8 p-6">
-                <a href="#pricing" class="btn bg-[#4a6cf7]">Get Started</a>
-                <a href="#features"
-                   class="btn bg-[#090E34] text-neutral-900 bg-opacity-20 hover:bg-opacity-30 dark:bg-[#ffff64] dark:bg-opacity-10 dark:hover:bg-opacity-5">Learn
-                    More</a>
+                <a href="#features" class="btn bg-[#4a6cf7]">Learn More</a>
+                <a href="formula.html"
+                   class="btn bg-[#090E34] text-neutral-900 bg-opacity-20 hover:bg-opacity-30 dark:bg-[#ffff64] dark:bg-opacity-10 dark:hover:bg-opacity-5">Our Formula</a>
             </div>
         </div>
         
@@ -77,21 +76,16 @@
                 <h2 class="heading text-3xl lg:text-5xl !leading-normal">Main
                     Features
                 </h2>
-                <p class="text-gray-500 dark:text-gray-400 text-xl">SknSprk is pioneering the skincare industry by linking wellness and cosmetics. We believe there is a need for a new generation of skincare — one that focuses on addressing the root cause rather than merely alleviating symptoms.
-                </p>
+                <p class="text-gray-500 dark:text-gray-400 text-xl">At Bahachik, we don't cut corners when it comes to efficacy and quality. Now let's take a closer look at some of the standout features of our shampoo bars.</p>
             </div>
             <div class="mt-10">
                 <div class="flex flex-col lg:flex-row items-center justify-center flex-wrap">
                     <div class="features-box">
                         <div class="py-4 px-1">
                             <div class="icon-box mb-6">
-                                <svg width="60" height="60" viewBox="0 0 40 40" class="mx-auto svg-fill">
-                                    <path opacity="0.5"
-                                          d="M39 12C39.5523 12 40 12.4477 40 13V39C40 39.5523 39.5523 40 39 40H13C12.4477 40 12 39.5523 12 39V33C12 32.4477 12.4477 32 13 32H31C31.5523 32 32 31.5523 32 31V13C32 12.4477 32.4477 12 33 12H39Z"></path>
-                                    <rect width="28" height="28" rx="1"></rect>
-                                </svg>
+                                <img src="img/plasticwaste.jpg" alt="">
                             </div>
-                            <div class="text-center">
+                            <div class="text-center" style="height:32vh; overflow:auto">
                                 <h3 class="heading text-2xl mb-2 leading-normal">
                                     Zero Plastic Waste
                                 </h3>
@@ -103,13 +97,9 @@
                     <div class="features-box">
                         <div class="py-4 px-1">
                             <div class="icon-box mb-6">
-                                <svg width="60" height="60" viewBox="0 0 40 40" class="mx-auto svg-fill">
-                                    <path opacity="0.5"
-                                          d="M39 12C39.5523 12 40 12.4477 40 13V39C40 39.5523 39.5523 40 39 40H13C12.4477 40 12 39.5523 12 39V33C12 32.4477 12.4477 32 13 32H31C31.5523 32 32 31.5523 32 31V13C32 12.4477 32.4477 12 33 12H39Z"></path>
-                                    <rect width="28" height="28" rx="1"></rect>
-                                </svg>
+                                <img src="img/packaging.jpg" alt="">
                             </div>
-                            <div class="text-center">
+                            <div class="text-center" style="height:32vh; overflow:auto">
                                 <h3 class="heading text-2xl mb-2 leading-normal">
                                     Packaging
                                 </h3>
@@ -122,13 +112,9 @@
                     <div class="features-box ">
                         <div class="py-4 px-1">
                             <div class="icon-box mb-6">
-                                <svg width="60" height="60" viewBox="0 0 40 40" class="mx-auto svg-fill">
-                                    <path opacity="0.5"
-                                          d="M39 12C39.5523 12 40 12.4477 40 13V39C40 39.5523 39.5523 40 39 40H13C12.4477 40 12 39.5523 12 39V33C12 32.4477 12.4477 32 13 32H31C31.5523 32 32 31.5523 32 31V13C32 12.4477 32.4477 12 33 12H39Z"></path>
-                                    <rect width="28" height="28" rx="1"></rect>
-                                </svg>
+                                <img src="img/plantbased.jpg" alt="">
                             </div>
-                            <div class="text-center">
+                            <div class="text-center" style="height:32vh; overflow:auto">
                                 <h3 class="heading text-2xl mb-2 leading-normal">Plant-Based Ingredients
                                 </h3>
                                 <p class="text-base text-gray-500 dark:text-gray-400 opacity-90">The fact that 94% of the ingredients are plant-based is excellent. Plant-based ingredients are often more sustainable and have a lower environmental footprint compared to synthetic or animal-derived ones.
@@ -140,13 +126,9 @@
                     <div class="features-box">
                         <div class="py-4 px-1">
                             <div class="icon-box mb-6">
-                                <svg width="60" height="60" viewBox="0 0 40 40" class="mx-auto svg-fill">
-                                    <path opacity="0.5"
-                                          d="M39 12C39.5523 12 40 12.4477 40 13V39C40 39.5523 39.5523 40 39 40H13C12.4477 40 12 39.5523 12 39V33C12 32.4477 12.4477 32 13 32H31C31.5523 32 32 31.5523 32 31V13C32 12.4477 32.4477 12 33 12H39Z"></path>
-                                    <rect width="28" height="28" rx="1"></rect>
-                                </svg>
+                                <img src="img/fragrance.jpg" alt="">
                             </div>
-                            <div class="text-center">
+                            <div class="text-center" style="height:32vh; overflow:auto">
                                 <h3 class="heading text-2xl mb-2 leading-normal">
                                     Fragrance and Quality:
                                 </h3>
@@ -159,13 +141,9 @@
                     <div class="features-box ">
                         <div class="py-4 px-1">
                             <div class="icon-box mb-6">
-                                <svg width="60" height="60" viewBox="0 0 40 40" class="mx-auto svg-fill">
-                                    <path opacity="0.5"
-                                          d="M39 12C39.5523 12 40 12.4477 40 13V39C40 39.5523 39.5523 40 39 40H13C12.4477 40 12 39.5523 12 39V33C12 32.4477 12.4477 32 13 32H31C31.5523 32 32 31.5523 32 31V13C32 12.4477 32.4477 12 33 12H39Z"></path>
-                                    <rect width="28" height="28" rx="1"></rect>
-                                </svg>
+                                <img src="img/petfriendly.jpg" alt="">
                             </div>
-                            <div class="text-center">
+                            <div class="text-center" style="height:32vh; overflow:auto">
                                 <h3 class="heading text-2xl mb-2 leading-normal">
                                     Dog-Friendly
                                 </h3>
@@ -178,13 +156,9 @@
                     <div class="features-box ">
                         <div class="py-4 px-1">
                             <div class="icon-box mb-6">
-                                <svg width="60" height="60" viewBox="0 0 40 40" class="mx-auto svg-fill">
-                                    <path opacity="0.5"
-                                          d="M39 12C39.5523 12 40 12.4477 40 13V39C40 39.5523 39.5523 40 39 40H13C12.4477 40 12 39.5523 12 39V33C12 32.4477 12.4477 32 13 32H31C31.5523 32 32 31.5523 32 31V13C32 12.4477 32.4477 12 33 12H39Z"></path>
-                                    <rect width="28" height="28" rx="1"></rect>
-                                </svg>
+                                <img src="img/ecofriendly.jpg" alt="">
                             </div>
-                            <div class="text-center">
+                            <div class="text-center" style="height:32vh; overflow:auto">
                                 <h3 class="heading text-2xl mb-2 leading-normal">
                                     Eco-Designed Formulas
                                 </h3>
@@ -205,9 +179,7 @@
                 <h2 class="heading text-white text-3xl lg:text-5xl !leading-normal">We are
                     ready to help
                 </h2>
-                <p class="text-gray-400 dark:text-gray-400 opacity-90 text-xl">Our mission is to promote mental health and wellbeing by strengthening the skin-brain axis. SknSprk is more than a cosmetic: it is a lifestyle choice.
-
-                </p>
+                <p class="text-gray-400 dark:text-gray-400 opacity-90 text-xl">Our mission is to create innovative, eco-conscious beauty and personal care products that are effective, safe, and sustainable for both people and pets.</p>
             </div>
             <div class="relative pt-16 mt-8 lg:mt-4">
                 <img src="./img/home-vector-2.png" class="absolute w-32 top-0 left-4 lg:left-48" alt="Icon Image">
@@ -225,28 +197,24 @@
                     <h2 class="heading !leading-normal text-xl" style="font-size:3vw !important">
                         The essence of Bahachik
                     </h2>
-                    <p class="text-gray-500 dark:text-gray-400 opacity-90 text-base">SknSprk is a unique skin cream that enhances the connection between your skin and mind. Using a mix of advanced science and clean ingredients, we make sure every bottle is specially crafted just for you after you answer a few simple questions. It's like getting a tailor-made outfit, but for your skin! With SknSprk, you get a personalized skin care experience that makes your skin feel truly understood and cared for.
-
-                    </p>
+                    <p class="text-gray-500 dark:text-gray-400 opacity-90 text-base">Bahachik is an eco-conscious brand born from a passion for science and nature. Our team of experts dedicate themselves to creating effective plant-based formulations that are gentle on skin and safe for the environment. We aim to provide an elevated beauty experience through innovative solid options designed to nourish the mind, body and soul. At Bahachik, excellence and ethics go hand-in-hand.</p>
                 </div>
                 <div class="flex items-center justify-between mt-12">
                     <div class="mx-3">
-                        <h3 class="heading font-black text-xl mb-2 leading-normal	">Quantum Technology
+                        <h3 class="heading font-black text-xl mb-2 leading-normal	">Clean and Safe Formula
                         </h3>
-                        <p class="text-base text-gray-500 dark:text-gray-400 opacity-90">Through careful application of safe low-frequency electromagnetic waves tuned to the human body, we quantum imprint the water that forms the gel base, resulting in a harmonious resonance between your skin and mind.
-                        </p>
+                        <p class="text-base text-gray-500 dark:text-gray-400 opacity-90">Our shampoo and conditioner bars are specially formulated to be gentle and non-toxic for dogs. We craft each ingredient with your furry friend's sensitive skin in mind.</p>
                     </div>
                     <div class="mx-3">
-                        <h3 class="heading font-black text-xl mb-2 leading-normal	">AI Personalization
+                        <h3 class="heading font-black text-xl mb-2 leading-normal	"> Quick Release Technology (QRT)</h3>
                         </h3>
-                        <p class="text-base text-gray-500 dark:text-gray-400 opacity-90">With a simple questionnaire, we decipher your skin's needs and desires, tailoring a unique formula that complements the base gel to perfectly match and cater to your individual requirements.
-                        </p>
+                        <p class="text-base text-gray-500 dark:text-gray-400 opacity-90">Our patent-pending quick release technology allows our solid bars to produce a rich, creamy lather and smooth conditioning. This innovation enhances the experience of standard liquid shampoos and conditioners.</p>
                     </div>
                 </div>
             </div>
             <div class="img mt-24 lg:mt-0 ml-8 basis-1/2">
                 <div class="">
-                    <img src="https://th.bing.com/th/id/R.56dde41aee17e96425987f751a9269ce?rik=PimP3aKlBih1aA&riu=http%3a%2f%2fwww.hdwallpaper.nu%2fwp-content%2fuploads%2f2015%2f09%2ftropical_beach_blue_summer_sea_emerald_sand_hd-wallpaper-1701606.jpg&ehk=OVN5KYNNiPQtsbvJxJZF3%2fZMhpDEpVc4ebUXS5y20%2f4%3d&risl=&pid=ImgRaw&r=0" class="w-full" style="border-radius:10px; margin-right:5%" alt="Ipad">
+                    <img src="img/palm.jpg" class="w-full" style="border-radius:10px; margin-right:5%" alt="Ipad">
                 </div>
             </div>
         </div>
@@ -254,7 +222,7 @@
     <div class="py-16 pt-10 md:py-20 bg-white dark:bg-dark" id="workflow">
         <div class="container flex flex-col-reverse lg:flex-row items-center justify-between gap-12 px-4 md:px-8 mx-auto ">
             <div class="relative px-4 lg:px-16 basis-1/2 ">
-                <img src="./img/team-workflow.png" alt="img" style="border-radius: 50%100px" class="sticky z-10">
+                <img src="./img/customer.jpg" alt="img" style="border-radius: 50%100px" class="sticky z-10">
                 <img src="./img/vector1.svg" alt=""
                      class="absolute bottom-1 right-2 md:right-7 w-40 md:w-60 -rotate-[190deg]">
             </div>
@@ -352,57 +320,8 @@
                         <button type="submit" class="btn price-btn bg-[#4a6cf7]">Learn More</button>
                         <hr class="my-10 bg-gray-600 text-gray-600 w-full opacity-30">
                     </div>
-                    <div class="price-description">
-                        <ul>
-                            <li class="price-option">
-                              <span class="price-list-style">
-                                 <svg width="12" height="10" viewBox="0 0 8 6" class="fill-[#4a6cf7]">
-                                    <path d="M2.90567 6.00024C2.68031 6.00024 2.48715 5.92812 2.294 5.74764L0.169254 3.43784C-0.0560926 3.18523 -0.0560926 2.78827 0.169254 2.53566C0.39461 2.28298 0.74873 2.28298 0.974086 2.53566L2.90567 4.66497L7.02642 0.189715C7.25175 -0.062913 7.60585 -0.062913 7.83118 0.189715C8.0566 0.442354 8.0566 0.839355 7.83118 1.09198L3.54957 5.78375C3.32415 5.92812 3.09882 6.00024 2.90567 6.00024Z"></path>
-                                 </svg>
-                              </span>
-                                Feature #1
-                            </li>
-                            <li class="price-option">
-                              <span class="price-list-style">
-                                 <svg width="12" height="10" viewBox="0 0 8 6" class="fill-[#4a6cf7]">
-                                    <path d="M2.90567 6.00024C2.68031 6.00024 2.48715 5.92812 2.294 5.74764L0.169254 3.43784C-0.0560926 3.18523 -0.0560926 2.78827 0.169254 2.53566C0.39461 2.28298 0.74873 2.28298 0.974086 2.53566L2.90567 4.66497L7.02642 0.189715C7.25175 -0.062913 7.60585 -0.062913 7.83118 0.189715C8.0566 0.442354 8.0566 0.839355 7.83118 1.09198L3.54957 5.78375C3.32415 5.92812 3.09882 6.00024 2.90567 6.00024Z"></path>
-                                 </svg>
-                              </span>
-                                Feature #2
-                            </li>
-                            <li class="price-option">
-                              <span class="price-list-style">
-                                 <svg width="12" height="10" viewBox="0 0 8 6" class="fill-[#4a6cf7]">
-                                    <path d="M2.90567 6.00024C2.68031 6.00024 2.48715 5.92812 2.294 5.74764L0.169254 3.43784C-0.0560926 3.18523 -0.0560926 2.78827 0.169254 2.53566C0.39461 2.28298 0.74873 2.28298 0.974086 2.53566L2.90567 4.66497L7.02642 0.189715C7.25175 -0.062913 7.60585 -0.062913 7.83118 0.189715C8.0566 0.442354 8.0566 0.839355 7.83118 1.09198L3.54957 5.78375C3.32415 5.92812 3.09882 6.00024 2.90567 6.00024Z"></path>
-                                 </svg>
-                              </span>
-                                Feature #3
-                            </li>
-                            <li class="price-option">
-                              <span class="price-list-style">
-                                 <svg width="12" height="10" viewBox="0 0 8 6" class="fill-[#4a6cf7]">
-                                    <path d="M2.90567 6.00024C2.68031 6.00024 2.48715 5.92812 2.294 5.74764L0.169254 3.43784C-0.0560926 3.18523 -0.0560926 2.78827 0.169254 2.53566C0.39461 2.28298 0.74873 2.28298 0.974086 2.53566L2.90567 4.66497L7.02642 0.189715C7.25175 -0.062913 7.60585 -0.062913 7.83118 0.189715C8.0566 0.442354 8.0566 0.839355 7.83118 1.09198L3.54957 5.78375C3.32415 5.92812 3.09882 6.00024 2.90567 6.00024Z"></path>
-                                 </svg>
-                              </span>
-                                Feature #4
-                            </li>
-                            <li class="price-option">
-                              <span class="price-list-style">
-                                 <svg width="12" height="10" viewBox="0 0 8 6" class="fill-[#4a6cf7]">
-                                    <path d="M2.90567 6.00024C2.68031 6.00024 2.48715 5.92812 2.294 5.74764L0.169254 3.43784C-0.0560926 3.18523 -0.0560926 2.78827 0.169254 2.53566C0.39461 2.28298 0.74873 2.28298 0.974086 2.53566L2.90567 4.66497L7.02642 0.189715C7.25175 -0.062913 7.60585 -0.062913 7.83118 0.189715C8.0566 0.442354 8.0566 0.839355 7.83118 1.09198L3.54957 5.78375C3.32415 5.92812 3.09882 6.00024 2.90567 6.00024Z"></path>
-                                 </svg>
-                              </span>
-                                Feature #5
-                            </li>
-                            <li class="price-option">
-                              <span class="price-list-style">
-                                 <svg width="12" height="10" viewBox="0 0 8 6" class="fill-[#4a6cf7]">
-                                    <path d="M2.90567 6.00024C2.68031 6.00024 2.48715 5.92812 2.294 5.74764L0.169254 3.43784C-0.0560926 3.18523 -0.0560926 2.78827 0.169254 2.53566C0.39461 2.28298 0.74873 2.28298 0.974086 2.53566L2.90567 4.66497L7.02642 0.189715C7.25175 -0.062913 7.60585 -0.062913 7.83118 0.189715C8.0566 0.442354 8.0566 0.839355 7.83118 1.09198L3.54957 5.78375C3.32415 5.92812 3.09882 6.00024 2.90567 6.00024Z"></path>
-                                 </svg>
-                              </span>
-                                Feature #6
-                            </li>
-                        </ul>
+                    <div class="icon-box mb-6">
+                        <img src="img/palm.jpg" alt="">
                     </div>
                     <div class="absolute bottom-0 right-0">
                         <svg width="179" height="158" viewBox="0 0 179 158" fill="none"
@@ -442,56 +361,9 @@
                         <hr class="my-10 bg-gray-600 text-gray-600 w-full opacity-30">
                     </div>
                     <div class="price-description">
-                        <ul>
-                            <li class="price-option">
-                              <span class="price-list-style">
-                                 <svg width="12" height="10" viewBox="0 0 8 6" class="fill-[#4a6cf7]">
-                                    <path d="M2.90567 6.00024C2.68031 6.00024 2.48715 5.92812 2.294 5.74764L0.169254 3.43784C-0.0560926 3.18523 -0.0560926 2.78827 0.169254 2.53566C0.39461 2.28298 0.74873 2.28298 0.974086 2.53566L2.90567 4.66497L7.02642 0.189715C7.25175 -0.062913 7.60585 -0.062913 7.83118 0.189715C8.0566 0.442354 8.0566 0.839355 7.83118 1.09198L3.54957 5.78375C3.32415 5.92812 3.09882 6.00024 2.90567 6.00024Z"></path>
-                                 </svg>
-                              </span>
-                                Feature #1
-                            </li>
-                            <li class="price-option">
-                              <span class="price-list-style">
-                                 <svg width="12" height="10" viewBox="0 0 8 6" class="fill-[#4a6cf7]">
-                                    <path d="M2.90567 6.00024C2.68031 6.00024 2.48715 5.92812 2.294 5.74764L0.169254 3.43784C-0.0560926 3.18523 -0.0560926 2.78827 0.169254 2.53566C0.39461 2.28298 0.74873 2.28298 0.974086 2.53566L2.90567 4.66497L7.02642 0.189715C7.25175 -0.062913 7.60585 -0.062913 7.83118 0.189715C8.0566 0.442354 8.0566 0.839355 7.83118 1.09198L3.54957 5.78375C3.32415 5.92812 3.09882 6.00024 2.90567 6.00024Z"></path>
-                                 </svg>
-                              </span>
-                                Feature #2
-                            </li>
-                            <li class="price-option">
-                              <span class="price-list-style">
-                                 <svg width="12" height="10" viewBox="0 0 8 6" class="fill-[#4a6cf7]">
-                                    <path d="M2.90567 6.00024C2.68031 6.00024 2.48715 5.92812 2.294 5.74764L0.169254 3.43784C-0.0560926 3.18523 -0.0560926 2.78827 0.169254 2.53566C0.39461 2.28298 0.74873 2.28298 0.974086 2.53566L2.90567 4.66497L7.02642 0.189715C7.25175 -0.062913 7.60585 -0.062913 7.83118 0.189715C8.0566 0.442354 8.0566 0.839355 7.83118 1.09198L3.54957 5.78375C3.32415 5.92812 3.09882 6.00024 2.90567 6.00024Z"></path>
-                                 </svg>
-                              </span>
-                                Feature #3
-                            </li>
-                            <li class="price-option">
-                              <span class="price-list-style">
-                                 <svg width="12" height="10" viewBox="0 0 8 6" class="fill-[#4a6cf7]">
-                                    <path d="M2.90567 6.00024C2.68031 6.00024 2.48715 5.92812 2.294 5.74764L0.169254 3.43784C-0.0560926 3.18523 -0.0560926 2.78827 0.169254 2.53566C0.39461 2.28298 0.74873 2.28298 0.974086 2.53566L2.90567 4.66497L7.02642 0.189715C7.25175 -0.062913 7.60585 -0.062913 7.83118 0.189715C8.0566 0.442354 8.0566 0.839355 7.83118 1.09198L3.54957 5.78375C3.32415 5.92812 3.09882 6.00024 2.90567 6.00024Z"></path>
-                                 </svg>
-                              </span>
-                                Feature #4
-                            </li>
-                            <li class="price-option">
-                              <span class="price-list-style">
-                                 <svg width="12" height="10" viewBox="0 0 8 6" class="fill-[#4a6cf7]">
-                                    <path d="M2.90567 6.00024C2.68031 6.00024 2.48715 5.92812 2.294 5.74764L0.169254 3.43784C-0.0560926 3.18523 -0.0560926 2.78827 0.169254 2.53566C0.39461 2.28298 0.74873 2.28298 0.974086 2.53566L2.90567 4.66497L7.02642 0.189715C7.25175 -0.062913 7.60585 -0.062913 7.83118 0.189715C8.0566 0.442354 8.0566 0.839355 7.83118 1.09198L3.54957 5.78375C3.32415 5.92812 3.09882 6.00024 2.90567 6.00024Z"></path>
-                                 </svg>
-                              </span>
-                                Feature #5
-                            </li>
-                            <li class="price-option">
-                              <span class="price-list-style">
-                                 <svg width="12" height="10" viewBox="0 0 8 6" class="fill-[#4a6cf7]">
-                                    <path d="M2.90567 6.00024C2.68031 6.00024 2.48715 5.92812 2.294 5.74764L0.169254 3.43784C-0.0560926 3.18523 -0.0560926 2.78827 0.169254 2.53566C0.39461 2.28298 0.74873 2.28298 0.974086 2.53566L2.90567 4.66497L7.02642 0.189715C7.25175 -0.062913 7.60585 -0.062913 7.83118 0.189715C8.0566 0.442354 8.0566 0.839355 7.83118 1.09198L3.54957 5.78375C3.32415 5.92812 3.09882 6.00024 2.90567 6.00024Z"></path>
-                                 </svg>
-                              </span>
-                                Feature #6
-                            </li>
-                        </ul>
+                        <div class="icon-box mb-6">
+                            <img src="img/palm.jpg" alt="">
+                        </div>
                     </div>
                     <div class="absolute bottom-0 right-0">
                         <svg width="179" height="158" viewBox="0 0 179 158" fill="none"
@@ -531,56 +403,9 @@
                         <hr class="my-10 bg-gray-600 text-gray-600 w-full opacity-30">
                     </div>
                     <div class="price-description">
-                        <ul>
-                            <li class="price-option">
-                              <span class="price-list-style">
-                                 <svg width="12" height="10" viewBox="0 0 8 6" class="fill-[#4a6cf7]">
-                                    <path d="M2.90567 6.00024C2.68031 6.00024 2.48715 5.92812 2.294 5.74764L0.169254 3.43784C-0.0560926 3.18523 -0.0560926 2.78827 0.169254 2.53566C0.39461 2.28298 0.74873 2.28298 0.974086 2.53566L2.90567 4.66497L7.02642 0.189715C7.25175 -0.062913 7.60585 -0.062913 7.83118 0.189715C8.0566 0.442354 8.0566 0.839355 7.83118 1.09198L3.54957 5.78375C3.32415 5.92812 3.09882 6.00024 2.90567 6.00024Z"></path>
-                                 </svg>
-                              </span>
-                                Feature #1
-                            </li>
-                            <li class="price-option">
-                              <span class="price-list-style">
-                                 <svg width="12" height="10" viewBox="0 0 8 6" class="fill-[#4a6cf7]">
-                                    <path d="M2.90567 6.00024C2.68031 6.00024 2.48715 5.92812 2.294 5.74764L0.169254 3.43784C-0.0560926 3.18523 -0.0560926 2.78827 0.169254 2.53566C0.39461 2.28298 0.74873 2.28298 0.974086 2.53566L2.90567 4.66497L7.02642 0.189715C7.25175 -0.062913 7.60585 -0.062913 7.83118 0.189715C8.0566 0.442354 8.0566 0.839355 7.83118 1.09198L3.54957 5.78375C3.32415 5.92812 3.09882 6.00024 2.90567 6.00024Z"></path>
-                                 </svg>
-                              </span>
-                                Feature #2
-                            </li>
-                            <li class="price-option">
-                              <span class="price-list-style">
-                                 <svg width="12" height="10" viewBox="0 0 8 6" class="fill-[#4a6cf7]">
-                                    <path d="M2.90567 6.00024C2.68031 6.00024 2.48715 5.92812 2.294 5.74764L0.169254 3.43784C-0.0560926 3.18523 -0.0560926 2.78827 0.169254 2.53566C0.39461 2.28298 0.74873 2.28298 0.974086 2.53566L2.90567 4.66497L7.02642 0.189715C7.25175 -0.062913 7.60585 -0.062913 7.83118 0.189715C8.0566 0.442354 8.0566 0.839355 7.83118 1.09198L3.54957 5.78375C3.32415 5.92812 3.09882 6.00024 2.90567 6.00024Z"></path>
-                                 </svg>
-                              </span>
-                                Feature #3
-                            </li>
-                            <li class="price-option">
-                              <span class="price-list-style">
-                                 <svg width="12" height="10" viewBox="0 0 8 6" class="fill-[#4a6cf7]">
-                                    <path d="M2.90567 6.00024C2.68031 6.00024 2.48715 5.92812 2.294 5.74764L0.169254 3.43784C-0.0560926 3.18523 -0.0560926 2.78827 0.169254 2.53566C0.39461 2.28298 0.74873 2.28298 0.974086 2.53566L2.90567 4.66497L7.02642 0.189715C7.25175 -0.062913 7.60585 -0.062913 7.83118 0.189715C8.0566 0.442354 8.0566 0.839355 7.83118 1.09198L3.54957 5.78375C3.32415 5.92812 3.09882 6.00024 2.90567 6.00024Z"></path>
-                                 </svg>
-                              </span>
-                                Feature #4
-                            </li>
-                            <li class="price-option">
-                              <span class="price-list-style">
-                                 <svg width="12" height="10" viewBox="0 0 8 6" class="fill-[#4a6cf7]">
-                                    <path d="M2.90567 6.00024C2.68031 6.00024 2.48715 5.92812 2.294 5.74764L0.169254 3.43784C-0.0560926 3.18523 -0.0560926 2.78827 0.169254 2.53566C0.39461 2.28298 0.74873 2.28298 0.974086 2.53566L2.90567 4.66497L7.02642 0.189715C7.25175 -0.062913 7.60585 -0.062913 7.83118 0.189715C8.0566 0.442354 8.0566 0.839355 7.83118 1.09198L3.54957 5.78375C3.32415 5.92812 3.09882 6.00024 2.90567 6.00024Z"></path>
-                                 </svg>
-                              </span>
-                                Feature #5
-                            </li>
-                            <li class="price-option">
-                              <span class="price-list-style">
-                                 <svg width="12" height="10" viewBox="0 0 8 6" class="fill-[#4a6cf7]">
-                                    <path d="M2.90567 6.00024C2.68031 6.00024 2.48715 5.92812 2.294 5.74764L0.169254 3.43784C-0.0560926 3.18523 -0.0560926 2.78827 0.169254 2.53566C0.39461 2.28298 0.74873 2.28298 0.974086 2.53566L2.90567 4.66497L7.02642 0.189715C7.25175 -0.062913 7.60585 -0.062913 7.83118 0.189715C8.0566 0.442354 8.0566 0.839355 7.83118 1.09198L3.54957 5.78375C3.32415 5.92812 3.09882 6.00024 2.90567 6.00024Z"></path>
-                                 </svg>
-                              </span>
-                                Feature #6
-                            </li>
-                        </ul>
+                        <div class="icon-box mb-6">
+                            <img src="img/palm.jpg" alt="">
+                        </div>
                     </div>
                     <div class="absolute bottom-0 right-0">
                         <svg width="179" height="158" viewBox="0 0 179 158" fill="none"
@@ -609,13 +434,49 @@
             </div>
         </div>
     </div>
+
+    </div>
     <div class="contact-us py-16 bg-white dark:bg-dark" id="contact-us">
         <div class="container flex flex-col lg:flex-row items-stretch justify-center gap-8 px-4 md:px-10 lg:px-0 mx-auto">
             <div class="ticket basis-2/3 ml-0 lg:ml-8 bg-gray-dark dark:bg-slate-800 rounded">
                 <div class="py-16 px-6 lg:px-12">
+                    <div class="faq-title">
+                        <h2 class="heading text-2xl lg:text-3xl font-bold !leading-normal">
+                            Frequently Asked Questions
+                        </h2>
+                    </div>
+                    <div class="faq-content mt-10">
+                        <div class="faq-item my-4">
+                            <h3 class="text-xl font-semibold heading">Will the sugar/salt particles be harsh on my hair?</h3>
+                            <p class="text-gray-500">No, the sugar/salt particles in our products are finely milled and act as a gentle exfoliant, helping to cleanse the scalp without causing damage to your hair strands.</p>
+                        </div>
+                        <div class="faq-item my-4">
+                            <h3 class="text-xl font-semibold heading">What is quick release technology? Does it come from the ingredients or the method of use?</h3>
+                            <p class="text-gray-500">Quick release technology refers to the formulation's ability to activate and release its benefits rapidly when applied. It's a combination of both the ingredients and the method of use that ensures optimal performance.</p>
+                        </div>
+                        <div class="faq-item my-4">
+                            <h3 class="text-xl font-semibold heading">Will this work on my hair type?</h3>
+                            <p class="text-gray-500">Our shampoo bars are formulated to suit a range of hair types. However, individual results may vary. It's always recommended to patch-test any new product to ensure compatibility with your hair type.</p>
+                        </div>
+                        <div class="faq-item my-4">
+                            <h3 class="text-xl font-semibold heading">Do all human shampoos work on dogs? What makes this product different?</h3>
+                            <p class="text-gray-500">Not all human shampoos are suitable for dogs. Dogs have a different pH balance, and using a human shampoo can disrupt this. Our product is different as it's formulated to be gentle, effective, and safe for both humans and dogs, ensuring a balanced cleanse without causing irritation.</p>
+                        </div>
+                        <div class="faq-item my-4">
+                            <h3 class="text-xl font-semibold heading">Does it work on both shedding and non-shedding dogs?</h3>
+                            <p class="text-gray-500">Yes, our shampoo bars are designed to be effective on both shedding and non-shedding dogs, ensuring a thorough cleanse and leaving their coat looking healthy and shiny.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+            <div class="subscribe basis-1/3 mr-0 lg:mr-8 rounded bg-gray-dark">
+                <div class="py-16 px-6 lg:px-12">
                     <div class="form-title">
                         <h2 class="heading text-2xl lg:text-3xl font-bold !leading-normal">
-                            Need Help? Reach out.
+                            Can't find an answer? Reach out.
                         </h2>
                         <p class="text-gray-500 dark:text-gray-400 text-opacity-90 text-base font-bold">Our support team
                             will get back to you ASAP via email.
@@ -648,34 +509,6 @@
                     </div>
                 </div>
             </div>
-            <div class="subscribe basis-1/3 mr-0 lg:mr-8 rounded bg-gray-dark">
-                <div class="py-16 px-6 lg:px-12">
-                    <div class="form-title">
-                        <h2 class="heading text-2xl lg:text-3xl !leading-normal">
-                            Subscribe to receive future updates
-                        </h2>
-                        <p class="text-gray-500 dark:text-gray-400 text-opacity-90 text-base font-bold">Stay up to date on new product lines, product updates, and special events. 
-                        </p>
-                        <hr class="w-full my-12 bg-gray-600 text-gray-600 opacity-30">
-                    </div>
-                    <div class="form-contact mt-10">
-                        <form action="#">
-                            <div class="mt-2 mb-3">
-                                <input type="text" id="phone" class="block w-[100%] my-3 form-input" required
-                                       placeholder="Enter Your Name">
-                                <input type="email" id="address" class="block w-[100%] my-3 form-input" required
-                                       placeholder="Enter Your Email">
-                                <button type="submit"
-                                        class="btn bg-[#4a6cf7] opacity-90 py-3 block w-full border border-transparent">
-                                    Subscribe
-                                </button>
-                            </div>
-                            <p class="text-gray-400 text-opacity-90 text-base font-bold mt-6 text-center">
-                            </p>
-                        </form>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
     <div class="footer" id="footer">
@@ -686,8 +519,7 @@
                         <img src="./img/logo-dark.png" alt="logo" class="hidden dark:block">
                         <img src="./img/logo-light.png" alt="logo" class="block dark:hidden">
                     </div>
-                    <p class="text-gray-500 dark:text-gray-400 opacity-90 text-lg">Where Quantum Science and AI Personalization come together for your unique skin care experience!
-                    </p>
+                    <p class="text-gray-500 dark:text-gray-400 opacity-90 text-lg">The patent-pending solid shampoo and conditioner bar that nourishes your hair and protects our planet!</p>
                     <div class="mt-8">
                         <a href="" class="social">
                             <svg width="21" height="16" viewBox="0 0 19 14">
